@@ -48,7 +48,7 @@ export default function Contact(props) {
             />
             <p>Please enter your email {props.contactData.name}:</p>
             <input
-              type="text"
+              type="email"
               name="email"
               onBlur={handleBlur}
               value={props.contactData.email}
