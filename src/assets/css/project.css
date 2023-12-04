@@ -6,7 +6,7 @@ img {
   margin: 20px;
   height: 30%;
   width: 30%;
-  outline: black auto;
+  outline:white;
 }
 
 h1{
@@ -23,7 +23,7 @@ h1{
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        outline: black auto;
+        outline: white auto;
         margin:20px
 }
 
@@ -41,5 +41,5 @@ h2{
 
 a{
   text-decoration: underline;
-  color:#FEE9BA;
+  color:white;
 }

@@ -1,4 +1,4 @@
-import PortfolioImage from "../assets/img/portfolioimage.png";
+import PortfolioImage from "../assets/img/laura_greenbackground.png";
 import "../assets/css/about.css";
 
 export default function AboutPage() {
