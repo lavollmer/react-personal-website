@@ -1,10 +1,7 @@
-import { useState } from "react";
-
-export default function Contact() {
-  const [contactInfo, setContactInfo] = useState("laura");
-
-  function handleInputChange(event) {
-    setContactInfo(event.target.value);
+export default function Contact(props) {
+  function handleInputChange(e) {
+    console.log("hello");
+    props.setContactInfo(e.target.value);
   }
 
   return (
@@ -14,16 +11,18 @@ export default function Contact() {
           Contact me for more information. Please enter your information below:
         </p>
       </div>
-      <form>
-        <input
-          type="text"
-          name="name"
-          value={contactInfo}
-          onChange={handleInputChange}
-        />
-      </form>
+      <div>
+        <form>
+          <input
+            type="text"
+            name="name"
+            value={props.contactInfo}
+            onChange={handleInputChange}
+          />
+        </form>
 
-      <p>Right now, your name is {contactInfo}.</p>
+        <p>Right now, your name is {props.contactInfo}.</p>
+      </div>
     </>
   );
 }
