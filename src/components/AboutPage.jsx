@@ -11,16 +11,17 @@ export default function AboutPage() {
           alt="Laura's Profile Image"
         />
         <div className="biography">
-          <h1>Hello! My name is Laura.</h1>
+          <h1>Hey there!</h1>
           <p>
-            I love using design, user functionality and accessibiltiy to bring
-            stories and brands to life. I have a versatile background in
-            completion of a coding fullstack bootcamp, the flower industry, and
-            healthcare. I believe a website should be visually stunning, easy to
-            navigate and intuitive to use. I have a strong passion for problem
-            solving, storytelling and inclusion for all. Let's connect and
-            create something amazing!
+            I love using design to create user functionality and accessibility
+            that bring stories and brands to life. I have a versatile background
+            with the completion of a coding fullstack bootcamp, working as a
+            flower designer, and as a pharmacist. I believe a website should be
+            visually stunning, easy to navigate and intuitive to use. I have a
+            strong passion for problem solving, storytelling and inclusion for
+            all. Let's connect and create something amazing!
           </p>
+          <p>Sincerely, Laura, PharmD, MBA, BCPS, DPLA</p>
         </div>
       </div>
     </>
