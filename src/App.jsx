@@ -24,10 +24,10 @@ export default function App() {
 
   return (
     <>
-      <div className="container-background">
-        <Container>
+      <div>
+        <Container className="container-mainpage">
           <Router>
-            <div className="header-design">
+            <div className="header-design" style={{ width: "100vw" }}>
               <Header contactData={contactData} />
             </div>
             <Routes>

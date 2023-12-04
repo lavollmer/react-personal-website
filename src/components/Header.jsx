@@ -7,9 +7,14 @@ import "../assets/css/header.css";
 
 //put navigation bar into header
 export default function Header() {
+  const whiteBackground = {
+    backgroundColor: "white",
+    width: "100vw",
+  };
+
   return (
     <header>
-      <Navbar>
+      <Navbar style={whiteBackground}>
         <Container className="navbar-container">
           <h1>Laura Vollmer</h1>
           <ul className="navbar-links">
