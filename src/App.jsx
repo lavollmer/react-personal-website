@@ -1,8 +1,10 @@
 import { useState } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./components/Home";
 import Contact from "./components/Contact";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Home from "./components/Home";
+import AboutPage from "./components/AboutPage";
 import Project from "./components/Project";
 //react-bootstrap imported
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -16,13 +18,24 @@ export default function App() {
 
   return (
     <>
-      <div>
-        <Header contactData={contactData} />
-        <Home />
-        <Project />
-        <Contact contactData={contactData} setContactData={setContactData} />
-        <Footer />
-      </div>
+      <Header contactData={contactData} />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/projects" element={<Project />} />
+          <Route
+            path="/contactme"
+            element={
+              <Contact
+                contactData={contactData}
+                setContactData={setContactData}
+              />
+            }
+          />
+        </Routes>
+      </BrowserRouter>
+      <Footer />
     </>
   );
 }
