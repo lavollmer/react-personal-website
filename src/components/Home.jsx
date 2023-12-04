@@ -5,6 +5,7 @@ export default function Home() {
     <header>
       <div>
         <h1 className="tagline">Designer & Storyteller</h1>
+        <p>Welcome to my site!</p>
       </div>
     </header>
   );
