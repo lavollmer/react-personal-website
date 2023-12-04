@@ -34,7 +34,7 @@ Resume page:
 
 - Github Repo:https://github.com/lavollmer/react-personal-website
 
-- Netifly:
+- Netifly:https://splendid-dolphin-6a0886.netlify.app/
 
   <a id="technicalrequirements"></a>
 
@@ -48,6 +48,8 @@ Technical requirements for the application include:
 - HTML
 - React-router-dom
 - Bootstrap
+- Coolers
+- Vite
 
 <a id="credits"></a>
 
