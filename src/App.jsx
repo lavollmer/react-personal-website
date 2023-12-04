@@ -7,14 +7,18 @@ import Home from "./components/Home";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function App() {
-  const [contactInfo, setContactInfo] = useState("");
+  const [contactData, setContactData] = useState({
+    name: "",
+    email: "",
+    info: "",
+  });
 
   return (
     <>
       <div>
-        <Header contactInfo={contactInfo} />
+        <Header contactData={contactData} />
         <Home />
-        <Contact contactInfo={contactInfo} setContactInfo={setContactInfo} />
+        <Contact contactData={contactData} setContactData={setContactData} />
         <Footer />
       </div>
     </>
