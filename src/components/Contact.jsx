@@ -1,3 +1,5 @@
+import "../assets/css/contact.css";
+
 export default function Contact(props) {
   // function handleInputChange(e) {
   //   if (e.target.name === "name") {
@@ -20,37 +22,39 @@ export default function Contact(props) {
 
   return (
     <>
-      <div>
-        <p>
-          Contact me for more information. Please enter your information below:
-        </p>
-      </div>
-      <div>
-        <p>Hello {props.contactData.name}!</p>
-        <form>
-          <p>Please enter your name:</p>
-          <input
-            type="text"
-            name="name"
-            value={props.contactData.name}
-            onChange={handleInputChange}
-          />
-          <p>Please enter your email, {props.contactData.name}:</p>
-          <input
-            type="text"
-            name="email"
-            value={props.contactData.email}
-            onChange={handleInputChange}
-          />
-          <p>Please enter your question, {props.contactData.name}:</p>
-          <textarea
-            name="info"
-            value={props.contactData.info}
-            onChange={handleInputChange}
-          />
+      <div className="contact-me-form">
+        <div className="contactme">
+          <p>
+            Contact me for more information. Please enter your information
+            below.
+          </p>
+        </div>
+        <div className="input-info">
+          <form>
+            <p>Please enter your name:</p>
+            <input
+              type="text"
+              name="name"
+              value={props.contactData.name}
+              onChange={handleInputChange}
+            />
+            <p>Please enter your email {props.contactData.name}:</p>
+            <input
+              type="text"
+              name="email"
+              value={props.contactData.email}
+              onChange={handleInputChange}
+            />
+            <p>Please enter your question {props.contactData.name}:</p>
+            <textarea
+              name="info"
+              value={props.contactData.info}
+              onChange={handleInputChange}
+            />
 
-          <button>Submit Info</button>
-        </form>
+            <button className="button">Submit Info</button>
+          </form>
+        </div>
       </div>
     </>
   );

@@ -1,7 +1,11 @@
+import "../assets/css/home.css";
+
 export default function Home() {
   return (
     <header>
-      <h1>Designer, Storyteller and User Experience Expert</h1>
+      <div>
+        <h1 className="tagline">Designer && Storyteller</h1>
+      </div>
     </header>
   );
 }

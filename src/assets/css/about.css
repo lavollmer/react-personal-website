@@ -1,0 +1,22 @@
+.container-bio {
+    display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.photo-me {
+    display: flex;
+  flex-direction: row;
+  justify-content: left;
+  width: 30%;
+  height: 30%;
+}
+
+.biography {
+    display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: left;
+  padding:40px;
+}
