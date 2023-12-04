@@ -1,7 +1,10 @@
+import PortfolioImage from "../assets/img/portfolioimage.png";
+
 export default function AboutPage() {
   return (
     <>
       <div>
+        <img src={PortfolioImage} alt="Laura's Profile Image" />
         <p>Hello! My name is Laura. </p>
         <p>
           I love using design, user functionality and accessibiltiy to bring

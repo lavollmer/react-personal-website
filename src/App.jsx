@@ -9,6 +9,7 @@ import Project from "./components/Project";
 import Resume from "./components/Resume";
 import NotFound from "./components/NotFound";
 import Container from "react-bootstrap/Container";
+import "./App.css";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 //react-bootstrap imported
@@ -23,28 +24,32 @@ export default function App() {
 
   return (
     <>
-      <Container>
-        <Router>
-          <Header contactData={contactData} />
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<AboutPage />} />
-            <Route path="/project" element={<Project />} />
-            <Route
-              path="/contactme"
-              element={
-                <Contact
-                  contactData={contactData}
-                  setContactData={setContactData}
-                />
-              }
-            />
-            <Route path="/resume" element={<Resume />} />
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-        </Router>
-        <Footer />
-      </Container>
+      <div className="container-background">
+        <Container>
+          <Router>
+            <div className="header-design">
+              <Header contactData={contactData} />
+            </div>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/about" element={<AboutPage />} />
+              <Route path="/project" element={<Project />} />
+              <Route
+                path="/contactme"
+                element={
+                  <Contact
+                    contactData={contactData}
+                    setContactData={setContactData}
+                  />
+                }
+              />
+              <Route path="/resume" element={<Resume />} />
+              <Route path="*" element={<NotFound />} />
+            </Routes>
+          </Router>
+          <Footer />
+        </Container>
+      </div>
     </>
   );
 }
