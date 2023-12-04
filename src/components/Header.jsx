@@ -8,7 +8,7 @@ import "../assets/css/header.css";
 //put navigation bar into header
 export default function Header() {
   const whiteBackground = {
-    backgroundColor: "black",
+    backgroundColor: "#093723",
     width: "100vw",
     display: "flex",
     flexDirection: "row",

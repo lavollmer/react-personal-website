@@ -1,8 +1,18 @@
-.tagline {
+.mainpage-writing {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  color: white;
   font-size: 50px;
   margin:100px;
 }
+
+div.hero-image{
+      display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%,
+}
+
