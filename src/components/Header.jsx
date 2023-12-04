@@ -31,6 +31,9 @@ export default function Header() {
             <Link to="/"> Home</Link>
           </ul>
           <ul>
+            <Link to="/about"> About</Link>
+          </ul>
+          <ul>
             <Link to="/contactme"> Contact</Link>
           </ul>
           <ul>

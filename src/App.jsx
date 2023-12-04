@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import AboutPage from "./components/AboutPage";
 import Project from "./components/Project";
+import Resume from "./components/Resume";
 import NotFound from "./components/NotFound";
 import Navigation from "./components/Navigation";
 //react-bootstrap imported
@@ -25,7 +26,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutPage />} />
-          <Route path="/projects" element={<Project />} />
+          <Route path="/project" element={<Project />} />
           <Route
             path="/contactme"
             element={
@@ -35,6 +36,7 @@ export default function App() {
               />
             }
           />
+          <Route path="/resume" element={<Resume />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Router>
