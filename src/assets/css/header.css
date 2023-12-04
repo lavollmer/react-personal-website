@@ -3,6 +3,7 @@ h1{
               flex-direction: row;
               justify-content: center;
               align-items: center;
+              color:white;
 }
 
 .navbar-container{
@@ -10,13 +11,19 @@ h1{
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: white; 
   width:100%;
+}
 
+div.navbar-container.container{
+    display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 100%;
 }
 
 .link-style {
   text-decoration: none;
-  color: black;
+  color: white;
     font-size: 25px;
 }
