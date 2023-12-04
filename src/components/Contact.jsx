@@ -27,26 +27,28 @@ export default function Contact(props) {
       </div>
       <div>
         <form>
+          <p>Please enter your name:</p>
           <input
             type="text"
             name="name"
             value={props.contactData.name}
             onChange={handleInputChange}
           />
-
+          <p>Please enter your email:</p>
           <input
             type="text"
             name="email"
             value={props.contactData.email}
             onChange={handleInputChange}
           />
-
-          <input
-            type="text"
+          <p>Please enter your question:</p>
+          <textarea
             name="info"
             value={props.contactData.info}
             onChange={handleInputChange}
           />
+
+          <button>Submit Info</button>
         </form>
 
         <p>Right now, your name is {props.contactData.name}.</p>

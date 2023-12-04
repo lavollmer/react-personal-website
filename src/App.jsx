@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import AboutPage from "./components/AboutPage";
 import Project from "./components/Project";
+import NotFound from "./components/NotFound";
 //react-bootstrap imported
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -21,7 +22,7 @@ export default function App() {
       <Header contactData={contactData} />
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/home/*" element={<Home />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/projects" element={<Project />} />
           <Route
@@ -33,6 +34,7 @@ export default function App() {
               />
             }
           />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
       <Footer />
