@@ -32,7 +32,7 @@ export default function Resume() {
         </p>
       </div>
       <h1>Please check out my resume for more information!</h1>
-      <button>
+      <button className="button-color">
         <a
           href="/documents/resume.pdf"
           download="resume.pdf"

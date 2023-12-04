@@ -19,8 +19,7 @@ export default function Home() {
       >
         <div>
           <div className="mainpage-writing">
-            <h1 className="tagline">Designer & Storyteller</h1>
-            <p>Welcome to my site!</p>
+            <h1 className="tagline">Storyteller & Website Creator </h1>
           </div>
         </div>
       </div>
