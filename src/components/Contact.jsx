@@ -1,4 +1,6 @@
 import "../assets/css/contact.css";
+import Alert from "./Alert";
+import React from "react";
 
 export default function Contact(props) {
   // function handleInputChange(e) {
@@ -20,6 +22,11 @@ export default function Contact(props) {
     });
   }
 
+  //alerts user to fill out form when input field is out of focus
+  const handleBlur = (e) => {
+    window.alert("Please finish filling out the form! Thank you!");
+  };
+
   return (
     <>
       <div className="contact-me-form">
@@ -35,6 +42,7 @@ export default function Contact(props) {
             <input
               type="text"
               name="name"
+              onBlur={handleBlur}
               value={props.contactData.name}
               onChange={handleInputChange}
             />
@@ -42,12 +50,14 @@ export default function Contact(props) {
             <input
               type="text"
               name="email"
+              onBlur={handleBlur}
               value={props.contactData.email}
               onChange={handleInputChange}
             />
             <p>Please enter your question {props.contactData.name}:</p>
             <textarea
               name="info"
+              onBlur={handleBlur}
               value={props.contactData.info}
               onChange={handleInputChange}
             />

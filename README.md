@@ -55,6 +55,11 @@ Technical requirements for the application include:
 
 This project was done in conjunction with the U of MN Bootcamp Fall 2023.
 
+onBlur Inspiration:
+
+- https://www.w3schools.com/jsref/event_onblur.asp
+- https://www.reddit.com/r/reactjs/comments/pz1hvb/how_do_you_submit_react_hook_form_on_input_field/?rdt=49556
+
 <a id="license"></a>
 
 ## License
