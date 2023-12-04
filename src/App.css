@@ -1,16 +1,16 @@
-div{
-      display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
 }
 
-  h1 {
-    font-size: 30px;
-  font-family: 'DM Serif Display', serif;
-  }
+h1 {
+  font-size: 30px;
+  font-family: "DM Serif Display", serif;
+}
 
-  body {
-  font-family: 'DM Serif Display', serif;
-  }
+body {
+  font-family: "DM Serif Display", serif;
+}

@@ -26,7 +26,8 @@ export default function Footer() {
         </a>
       </div>
       <p className="copyright">
-        Copyright 2023 Laura Vollmer. All rights reserved.
+        Copyright 2023 Laura Vollmer. All rights reserved. All images are my
+        own.
       </p>
     </footer>
   );
