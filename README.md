@@ -50,6 +50,7 @@ Technical requirements for the application include:
 - Bootstrap
 - Coolers
 - Vite
+- Google Fonts
 
 <a id="credits"></a>
 
