@@ -22,7 +22,7 @@ export default function App() {
       <Header contactData={contactData} />
       <BrowserRouter>
         <Routes>
-          <Route path="/home/*" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/projects" element={<Project />} />
           <Route

@@ -1,8 +1,10 @@
-export default function Header(props) {
+import Navigation from "./Navigation";
+
+export default function Header() {
   return (
     <header>
-      <h1>Welcome to my personal portfolio site {props.contactData.name}!</h1>
-      <p>I'm a web developer</p>
+      <Navigation />
+      <h1>Welcome to my personal portfolio site!</h1>
     </header>
   );
 }
