@@ -20,3 +20,8 @@ div.biography {
   padding:40px;
   color:white;
 }
+
+h2.about-font {
+font-family: 'Rosarivo', cursive;
+color:#ef6e4d;
+}

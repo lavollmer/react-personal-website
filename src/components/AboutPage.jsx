@@ -11,7 +11,7 @@ export default function AboutPage() {
           alt="Laura's Profile Image"
         />
         <div className="biography">
-          <h1>Hey there!</h1>
+          <h2 className="about-font">Hey there!</h2>
           <p>
             I love using design to create user functionality and accessibility
             that bring stories and brands to life. I have a versatile background
@@ -21,7 +21,8 @@ export default function AboutPage() {
             strong passion for problem solving, storytelling and inclusion for
             all. Let's connect and create something amazing!
           </p>
-          <p>Sincerely, Laura, PharmD, MBA, BCPS, DPLA</p>
+          <h2 className="about-font">Sincerely, </h2>
+          <h2 className="about-font">Laura, PharmD, MBA, BCPS, DPLA</h2>
         </div>
       </div>
     </>
