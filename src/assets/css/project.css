@@ -1,0 +1,45 @@
+img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  height: 30%;
+  width: 30%;
+  outline: black auto;
+}
+
+h1{
+    display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      font-size: 30px;
+}
+
+
+.project-item{
+      display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        outline: black auto;
+        margin:20px
+}
+
+.project-writing {
+        display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+}
+
+h2{
+  font-weight: bold;
+  font-size: 50px;
+}
+
+a{
+  text-decoration: underline;
+  color:#FEE9BA;
+}
