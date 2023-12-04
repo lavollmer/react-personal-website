@@ -17,16 +17,13 @@ This project was to build a React single-application personal portfolio website 
 ## Website Pages
 
 Home page:
-![Preview of the home Page]()
+![Preview of the home Page](./src/assets/img/frontpage_portfolio.png)
 
-About page:
-![Preview of the about Page]()
-
-Contact page:
-![Preview of the contact Page]()
+Footer section of the page:
+![Preview of the Footer Section](./src/assets/img/footer_page.png)
 
 Resume page:
-![Preview of the resume Page]()
+![Preview of the resume Page](./src/assets/img/resume_page.png)
 
 <a id="websitelinks"></a>
 
@@ -68,6 +65,8 @@ Download Resume inspiration:
 - https://stackoverflow.com/questions/60922523/how-to-make-a-pdf-download-on-a-button-click-with-react
 
 Xpert Learning Assistant provided this information (which I didn't use very much):
+
+```
 To create a navigation bar in React using React Router DOM and a Bootstrap template, you can follow these steps:
 
 Install the required dependencies:
@@ -155,6 +154,7 @@ import App from './App';
 ReactDOM.render(<App />, document.getElementById('root'));
 
 This setup will create a navigation bar using the Bootstrap template and handle the routing between different pages.
+```
 
 <a id="license"></a>
 
