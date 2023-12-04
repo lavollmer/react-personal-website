@@ -8,7 +8,9 @@ import AboutPage from "./components/AboutPage";
 import Project from "./components/Project";
 import Resume from "./components/Resume";
 import NotFound from "./components/NotFound";
-import Navigation from "./components/Navigation";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 //react-bootstrap imported
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -21,26 +23,28 @@ export default function App() {
 
   return (
     <>
-      <Router>
-        <Header contactData={contactData} />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="/project" element={<Project />} />
-          <Route
-            path="/contactme"
-            element={
-              <Contact
-                contactData={contactData}
-                setContactData={setContactData}
-              />
-            }
-          />
-          <Route path="/resume" element={<Resume />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </Router>
-      <Footer />
+      <Container>
+        <Router>
+          <Header contactData={contactData} />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/project" element={<Project />} />
+            <Route
+              path="/contactme"
+              element={
+                <Contact
+                  contactData={contactData}
+                  setContactData={setContactData}
+                />
+              }
+            />
+            <Route path="/resume" element={<Resume />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </Router>
+        <Footer />
+      </Container>
     </>
   );
 }

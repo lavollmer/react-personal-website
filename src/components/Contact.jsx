@@ -26,6 +26,7 @@ export default function Contact(props) {
         </p>
       </div>
       <div>
+        <p>Hello {props.contactData.name}!</p>
         <form>
           <p>Please enter your name:</p>
           <input
@@ -34,14 +35,14 @@ export default function Contact(props) {
             value={props.contactData.name}
             onChange={handleInputChange}
           />
-          <p>Please enter your email:</p>
+          <p>Please enter your email, {props.contactData.name}:</p>
           <input
             type="text"
             name="email"
             value={props.contactData.email}
             onChange={handleInputChange}
           />
-          <p>Please enter your question:</p>
+          <p>Please enter your question, {props.contactData.name}:</p>
           <textarea
             name="info"
             value={props.contactData.info}
@@ -50,8 +51,6 @@ export default function Contact(props) {
 
           <button>Submit Info</button>
         </form>
-
-        <p>Right now, your name is {props.contactData.name}.</p>
       </div>
     </>
   );
