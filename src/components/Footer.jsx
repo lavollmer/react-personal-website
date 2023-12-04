@@ -1,7 +1,7 @@
 import "../assets/css/footer.css";
 import InstagramLogo from "../assets/img/instagram.svg";
 import GithubLogo from "../assets/img/square-github.svg";
-import LinkedInLogo from "../assets/img/linkedin-animated.svg";
+import LinkedInLogo from "../assets/img/linkedin.svg";
 
 export default function Footer() {
   return (
