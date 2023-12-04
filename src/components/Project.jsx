@@ -26,6 +26,7 @@ export default function Project() {
               github repo link and a scoreboard. We built this game after
               brainstorming unique ways to utilize an API in coding.
             </p>
+            <h2>Project Links:</h2>
             <a href="https://github.com/FranklinBrad/robot-murder-mystery/">
               Github Link
             </a>
@@ -48,6 +49,7 @@ export default function Project() {
               page. The website is a responsive, interactive and uses iFrame to
               embed Youtube videos.
             </p>
+            <h2>Project Links:</h2>
             <a href="https://github.com/lavollmer/songquest">Github Link</a>
             <a href="https://songquest-67489ba089f5.herokuapp.com/">
               Heroku Link
@@ -70,6 +72,7 @@ export default function Project() {
             is able to change the data based on the request and update the
             printed table of data.
           </p>
+          <h2>Project Links:</h2>
           <a href="https://github.com/lavollmer/sql-employeetracker">
             Github Link
           </a>
@@ -87,6 +90,7 @@ export default function Project() {
             using starter code. In this project, an individual will configure a
             working Express API and utilize mySQL database and Sequelize.
           </p>
+          <h2>Project Links:</h2>
           <a href="https://github.com/lavollmer/ecommerce-backend">
             Github Link
           </a>
@@ -112,6 +116,7 @@ export default function Project() {
             there, the user will be able to input their intials and be logged
             into a high score board.{" "}
           </p>
+          <h2>Project Links:</h2>
           <a href="https://lavollmer.github.io/timed-quiz/">
             **Only Link** Github Link
           </a>
@@ -127,6 +132,7 @@ export default function Project() {
             and offline. Benefits of PWAs include: offline function, optimizing
             webpages, and single codebase.
           </p>
+          <h2>Project Links:</h2>
           <a href="https://github.com/lavollmer/PWA-text-editor">Github Link</a>
           <a href="https://pwas-text-editor-46b7c75bdb24.herokuapp.com/">
             Heroku Link

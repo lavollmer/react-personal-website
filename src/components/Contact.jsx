@@ -31,10 +31,7 @@ export default function Contact(props) {
     <>
       <div className="contact-me-form">
         <div className="contactme">
-          <p>
-            Contact me for more information. Please enter your information
-            below.
-          </p>
+          <p>Let's work together! Please enter your information below.</p>
         </div>
         <div className="input-info">
           <form>

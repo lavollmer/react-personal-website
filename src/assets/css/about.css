@@ -13,10 +13,10 @@
   height: 20%;
 }
 
-.biography {
+div.biography {
     display: flex;
-  flex-direction: row;
-  justify-content: right;
+  flex-direction: column;
+  justify-content: left;
   align-items: left;
   padding:40px;
   color:white;

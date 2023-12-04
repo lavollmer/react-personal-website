@@ -7,16 +7,23 @@
   color:white;
 }
 
-.logos {
+/* p.logos {
     display: flex;
       flex-direction: row;
       justify-content: center;
       align-items: center;
-      padding: 10px;
-      font-size: 40px;
-}
+      padding: 5px;
+} */
+
+/* a {
+      display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: -5px;
+} */
 
 img {
-  width: 1em;
-  height: 1em;
+  width: 120%;
+  height: 120%;
 }

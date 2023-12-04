@@ -83,6 +83,7 @@ Create a functional component for the navigation bar:
 
 const Navbar = () => {
 return (
+
 <nav className="navbar navbar-expand-lg navbar-light bg-light">
 <Link className="navbar-brand" to="/">Home</Link>
 <button
@@ -116,6 +117,7 @@ const App = () => {
 return (
 <Router>
 <Navbar />
+
 <div className="container">
 <Route path="/" exact component={Home} />
 <Route path="/about" component={About} />
