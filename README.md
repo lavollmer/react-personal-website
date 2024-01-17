@@ -31,7 +31,7 @@ Resume page:
 
 - Github Repo:https://github.com/lavollmer/react-personal-website
 
-- Netifly:https://splendid-dolphin-6a0886.netlify.app/
+- Netifly:https://lauravollmerwebsite.netlify.app/
 
   <a id="technicalrequirements"></a>
 
